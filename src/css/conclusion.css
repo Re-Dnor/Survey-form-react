@@ -1,9 +1,34 @@
-.table {
+.conclusion {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: azure;
+}
+
+.conclusion__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(0, 255, 255, 0.203);
+  color: white;
+  text-shadow: 0 0 1px black;
+  border-radius: 25px;
+  box-shadow: 0 0 5px black;
+}
+
+.conclusion__title {
+  font-size: 34px;
+  text-shadow: 0 0 3px black;
+}
+
+.conclusion__subtitle {
+  font-size: 20px;
+  text-shadow: 0 0 3px black;
 }
 
 .thx {
