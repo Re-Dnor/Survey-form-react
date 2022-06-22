@@ -9,7 +9,7 @@ const Conclusion = ({data, onClick} ) => {
       <div className="conclusion">
         <div className="conclusion__wrapper">
           <h1 className="conclusion__title">Thanks {name} for completed survey</h1>
-          <p className="conclusion__subtitle">{favorite} is not bad, but "Better call Saul" perfecto</p>
+          <p className="conclusion__subtitle">{favorite.toLowerCase() === 'better call saul'? 'This is my too' : 'is not bad, but "Better call Saul" perfecto'}</p>
           <button className="btn-back" onClick={onClick}>Back</button>
         </div>
       </div> 
