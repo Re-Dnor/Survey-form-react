@@ -22,6 +22,7 @@
 }
 
 .conclusion__title {
+  text-align: center;
   font-size: 34px;
   text-shadow: 0 0 3px black;
 }
